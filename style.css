@@ -1,0 +1,48 @@
+h1{
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+#theBoxes {
+   font-weight: bold;
+   border: solid black;
+}
+
+#theColor{
+    font-weight: bold;
+   border: solid black;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid black;
+    position: absolute;
+    margin: 10px;
+    background-color: darkgrey;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+}
+
+.myDiv{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    color: darkblue;
+    font-weight: bold;
+}
